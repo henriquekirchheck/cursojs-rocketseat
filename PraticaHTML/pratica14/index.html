@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="table.css" rel="stylesheet">
+    <title>tabela de lojas</title>
+</head>
+<body>
+    <table>
+
+        <caption>Loja 1 e 2 e seu produtos</caption>
+
+        <colgroup>
+            <col style="background-color: black;">
+            <col span="2" style="background-color: blue;">
+            <col span="2" style="background-color: purple;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">Loja 1</th>
+                <th colspan="2" scope="colgroup">Loja 2</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzido</th>
+                <th scope="col">Vendido</th>
+                <th scope="col">Produzido</th>
+                <th scope="col">Vendido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row" style="color: white;">Produto 1</td>
+                <td>50</td>
+                <td>42</td>
+                <td>60</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td scope="row" style="color: white;">Produto 2</td>
+                <td>62</td>
+                <td>54</td>
+                <td>100</td>
+                <td>87</td>
+            </tr>
+        </tbody>
+        </tfoot>
+    </table>
+</body>
+</html>
