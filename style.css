@@ -1,0 +1,21 @@
+.html {
+    background-color: orange;
+}
+
+.css {
+    background-color: aqua;
+}
+
+.js {
+    background-color: #FFDD4A;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 8%;
+    height: auto;
+}

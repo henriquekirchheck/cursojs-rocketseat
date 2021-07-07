@@ -1,0 +1,15 @@
+* {
+    color: red;
+    margin: 0;
+}
+
+#container {
+    width: 200px;
+}
+
+.titulo {
+    color: blue;
+    margin: 40px;
+    font-size: 60px;
+    background: gray;
+}
