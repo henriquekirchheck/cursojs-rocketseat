@@ -1,0 +1,45 @@
+body{
+    background-color: blue;
+}
+
+
+.html {
+    background-color: orange;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.css {
+    background-color: aqua;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.js {
+    background-color: #FFDD4A;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+img {
+    max-width: 8%;
+    height: auto;
+}
